@@ -11,6 +11,7 @@
 		3C4C0DB02AC8DE2A00CB40A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4C0DAF2AC8DE2A00CB40A2 /* ContentView.swift */; };
 		3C4C0DB22AC8DE2D00CB40A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4C0DB12AC8DE2D00CB40A2 /* Assets.xcassets */; };
 		3C4C0DB52AC8DE2D00CB40A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4C0DB42AC8DE2D00CB40A2 /* Preview Assets.xcassets */; };
+		3C4C0DBC2AC8E03200CB40A2 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4C0DBB2AC8E03200CB40A2 /* RestaurantModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3C4C0DAF2AC8DE2A00CB40A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C4C0DB12AC8DE2D00CB40A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C4C0DB42AC8DE2D00CB40A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C4C0DBB2AC8E03200CB40A2 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				3C4C0DAF2AC8DE2A00CB40A2 /* ContentView.swift */,
 				3C4C0DB12AC8DE2D00CB40A2 /* Assets.xcassets */,
 				3C4C0DB32AC8DE2D00CB40A2 /* Preview Content */,
+				3C4C0DBB2AC8E03200CB40A2 /* RestaurantModel.swift */,
 			);
 			path = Exercise5_waobikeze_Brian;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C4C0DB02AC8DE2A00CB40A2 /* ContentView.swift in Sources */,
+				3C4C0DBC2AC8E03200CB40A2 /* RestaurantModel.swift in Sources */,
 				3C4C0DAE2AC8DE2A00CB40A2 /* Exercise5_waobikeze_BrianApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
