@@ -12,6 +12,7 @@
 		3C4C0DB22AC8DE2D00CB40A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4C0DB12AC8DE2D00CB40A2 /* Assets.xcassets */; };
 		3C4C0DB52AC8DE2D00CB40A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4C0DB42AC8DE2D00CB40A2 /* Preview Assets.xcassets */; };
 		3C4C0DBC2AC8E03200CB40A2 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4C0DBB2AC8E03200CB40A2 /* RestaurantModel.swift */; };
+		3C4C0DBE2ACA680500CB40A2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4C0DBD2ACA680500CB40A2 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		3C4C0DB12AC8DE2D00CB40A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C4C0DB42AC8DE2D00CB40A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C4C0DBB2AC8E03200CB40A2 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		3C4C0DBD2ACA680500CB40A2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3C4C0DBF2ACA83DA00CB40A2 /* Exercise5-waobikeze-Brian-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Exercise5-waobikeze-Brian-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +56,13 @@
 		3C4C0DAC2AC8DE2A00CB40A2 /* Exercise5_waobikeze_Brian */ = {
 			isa = PBXGroup;
 			children = (
+				3C4C0DBF2ACA83DA00CB40A2 /* Exercise5-waobikeze-Brian-Info.plist */,
 				3C4C0DAD2AC8DE2A00CB40A2 /* Exercise5_waobikeze_BrianApp.swift */,
 				3C4C0DAF2AC8DE2A00CB40A2 /* ContentView.swift */,
 				3C4C0DB12AC8DE2D00CB40A2 /* Assets.xcassets */,
 				3C4C0DB32AC8DE2D00CB40A2 /* Preview Content */,
 				3C4C0DBB2AC8E03200CB40A2 /* RestaurantModel.swift */,
+				3C4C0DBD2ACA680500CB40A2 /* DetailView.swift */,
 			);
 			path = Exercise5_waobikeze_Brian;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C4C0DB02AC8DE2A00CB40A2 /* ContentView.swift in Sources */,
+				3C4C0DBE2ACA680500CB40A2 /* DetailView.swift in Sources */,
 				3C4C0DBC2AC8E03200CB40A2 /* RestaurantModel.swift in Sources */,
 				3C4C0DAE2AC8DE2A00CB40A2 /* Exercise5_waobikeze_BrianApp.swift in Sources */,
 			);
@@ -273,6 +279,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Exercise5_waobikeze_Brian/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Exercise5-waobikeze-Brian-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +308,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Exercise5_waobikeze_Brian/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Exercise5-waobikeze-Brian-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

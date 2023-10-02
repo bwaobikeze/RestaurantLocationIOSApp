@@ -12,26 +12,61 @@ struct response: Codable{
     var results: [restrunts]
 }
 struct ContentView: View {
+    @Environment(\.verticalSizeClass) var heightSize: UserInterfaceSizeClass?
+    @Environment(\.horizontalSizeClass) var widthSize: UserInterfaceSizeClass?
     @State private var Restrunts = [restrunts]()
     var body: some View {
-            List(Restrunts, id: \.name) { rest in
-                HStack{
-                                        AsyncImage(url: rest.logo) { image in
-                                            image.resizable()
-                                                .aspectRatio(contentMode: .fit)
-                                                .frame(maxWidth: 80, maxHeight: 80)
-                                        } placeholder: {
-                                            ProgressView()
-                                        }
+        if heightSize == .regular{
+            NavigationView{
+                List(Restrunts, id: \.name) { rest in
+                    NavigationLink(destination: DetailView(map: rest.map, imageTitle: rest.logo, title: rest.name, describ: rest.about,phone: rest.phone)){
+                        HStack{
+                            AsyncImage(url: rest.logo){ image in
+                                image.resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(maxWidth: 120, maxHeight: 120)
+                                
+                            }placeholder: {
+                                ProgressView()
+                            }
+                            Spacer()
+                            Text(rest.free).font(.title.bold())
+                        }
+                    }
                     Spacer()
-                    Text(rest.free).font(.title.bold())
                 }
-                Spacer()
+                .task {
+                    await loadData()
+                }
+                
             }
-            .task {
-                await loadData()
+        }else if heightSize == .compact{
+            NavigationView{
+                List(Restrunts, id: \.name) { rest in
+                    NavigationLink(destination: DetailView(map: rest.map, imageTitle: rest.logo, title: rest.name, describ: rest.about,phone: rest.phone)){
+                        HStack{
+                            AsyncImage(url: rest.logo){ image in
+                                image.resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(maxWidth: 120, maxHeight: 120)
+                                
+                            }placeholder: {
+                                ProgressView()
+                            }
+                            Spacer()
+                            Text(rest.free).font(.title.bold())
+                        }
+                        .frame(maxWidth: .infinity)
+                    }
+                    Spacer()
+                }
+                .task {
+                    await loadData()
+                }
+                
             }
-        
+        }
+
     }
     func loadData() async {
         // func might want to go to sleep in order to complete work
