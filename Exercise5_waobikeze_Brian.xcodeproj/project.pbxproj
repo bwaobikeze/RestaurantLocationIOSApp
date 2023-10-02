@@ -13,6 +13,7 @@
 		3C4C0DB52AC8DE2D00CB40A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4C0DB42AC8DE2D00CB40A2 /* Preview Assets.xcassets */; };
 		3C4C0DBC2AC8E03200CB40A2 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4C0DBB2AC8E03200CB40A2 /* RestaurantModel.swift */; };
 		3C4C0DBE2ACA680500CB40A2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4C0DBD2ACA680500CB40A2 /* DetailView.swift */; };
+		3C4C0DC12ACA933D00CB40A2 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4C0DC02ACA933D00CB40A2 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3C4C0DBB2AC8E03200CB40A2 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
 		3C4C0DBD2ACA680500CB40A2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		3C4C0DBF2ACA83DA00CB40A2 /* Exercise5-waobikeze-Brian-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Exercise5-waobikeze-Brian-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3C4C0DC02ACA933D00CB40A2 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3C4C0DB32AC8DE2D00CB40A2 /* Preview Content */,
 				3C4C0DBB2AC8E03200CB40A2 /* RestaurantModel.swift */,
 				3C4C0DBD2ACA680500CB40A2 /* DetailView.swift */,
+				3C4C0DC02ACA933D00CB40A2 /* SplashScreenView.swift */,
 			);
 			path = Exercise5_waobikeze_Brian;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				3C4C0DB02AC8DE2A00CB40A2 /* ContentView.swift in Sources */,
 				3C4C0DBE2ACA680500CB40A2 /* DetailView.swift in Sources */,
+				3C4C0DC12ACA933D00CB40A2 /* SplashScreenView.swift in Sources */,
 				3C4C0DBC2AC8E03200CB40A2 /* RestaurantModel.swift in Sources */,
 				3C4C0DAE2AC8DE2A00CB40A2 /* Exercise5_waobikeze_BrianApp.swift in Sources */,
 			);

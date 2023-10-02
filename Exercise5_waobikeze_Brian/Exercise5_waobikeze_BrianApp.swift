@@ -11,7 +11,7 @@ import SwiftUI
 struct Exercise5_waobikeze_BrianApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
