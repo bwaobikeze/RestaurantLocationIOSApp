@@ -56,20 +56,22 @@ struct ContentView: View {
                             Spacer()
                             Text(rest.free).font(.title.bold())
                         }
-                        .frame(maxWidth: .infinity)
                     }
                     Spacer()
                 }
+                .listStyle(PlainListStyle())
                 .task {
                     await loadData()
                 }
                 
             }
+            
+            
         }
 
     }
     func loadData() async {
-        // func might want to go to sleep in order to complete work
+       
         guard let url = URL(string: "https://m.cpl.uh.edu/courses/ubicomp/fall2022/webservice/restaurant/restaurants.json") else {
             print("Invalid URL")
             return
